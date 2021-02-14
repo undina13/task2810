@@ -10,7 +10,7 @@ public class Aggregator {
         Controller controller = new Controller(provider);
 
         controller.scan();
-        new HHStrategy().getVacancies("https://hh.ru/search/vacancy?text=java+Kiev&page=1");
+        new HHStrategy().getVacancies("text=java");
 
     }
 }
